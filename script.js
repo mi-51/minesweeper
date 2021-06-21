@@ -259,7 +259,7 @@ function 周囲の爆弾の数を増やす(x, y) {
   for (let dx = -1; dx <= 1; dx++) {
     for (let dy = -1; dy <= 1; dy++) {
       if (ゲーム盤内のマスかどうか(x + dx, y + dy)) {
-        ;
+        周囲の爆弾の数++;
       }
     }
   }
